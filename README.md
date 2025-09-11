@@ -1,6 +1,8 @@
 # GANs-for-Embroidery-Pattern-Image-to-Image-Translation
 GANs for Embroidery Pattern Image-to-Image Translation
 
+该项目需要python3.8，tensorflow2.13.0，matplotlib，numpy，cv2
+
 GAN.py用于网络训练。运行即可自动开始训练，支持保存checkpoint用于回溯训练过程。每次训练开始时会自动加载最新的checkpoint，在此基础上开始训练
 
 image_converter.py用于图生图
